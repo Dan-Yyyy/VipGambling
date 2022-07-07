@@ -1,0 +1,409 @@
+@import "./variables"
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
+body
+  background-image: url('./../assets/images/background.png')
+
+.wrapper
+  margin: 36px auto 32px
+  max-width: 1300px
+  width: 100%
+
+.header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-bottom: 10px
+
+.header-buttons
+  display: flex
+
+.header-button
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-left: 5px
+  padding: 10px 10px 8px
+  font-family: "Gilroy-Bold"
+  border: none
+  border-radius: 5px
+  background: rgba(0, 0, 0, 0.21)
+  color: white
+  cursor: pointer
+  transition: all 0.15s linear
+  &:hover
+    background: rgba(0, 0, 0, 0.41)
+  img
+    display: block
+    margin-right: 7px
+
+  &_active
+    background: white
+    color: black
+  &_active
+    &:hover
+      background: white
+
+.description
+  display: flex
+  justify-content: space-between
+  width: 100%
+  margin-bottom: 20px
+  background: rgba(0, 0, 0, 0.21)
+  &-image
+    height: 264px
+    margin-left: 20px
+    img
+      height: 100%
+
+  &-container
+    max-width: 720px
+    padding: 52px 0 0 20px
+
+  &-title
+    display: flex
+    align-items: center
+    margin-bottom: 11px
+    font-family: 'Gilroy-Bold'
+    font-size: 24px
+    color: #FFFFFF
+    text-transform: uppercase
+    span
+      color: linear-gradient(269.45deg, #7342FF 3.46%, #5B89FF 46.01%)
+
+  &-text
+    font-family: 'Gilroy-Medium'
+    font-size: 19px
+    color: rgba(255, 255, 255, 0.69)
+
+.dignity
+  display: flex
+  justify-content: space-between
+  margin-bottom: 19px
+
+  &-left
+    max-width: 730px
+    width: 100%
+    margin-right: 35px
+
+  &-right
+    max-width: 535px
+    width: 100%
+    background-color: rgba(0, 0, 0, 0.21)
+    iframe
+      width: 100%
+      max-width: 535px
+      height: 100%
+      max-height: 290px
+
+  &-title
+    width: 100%
+    margin-bottom: 14px
+    padding: 42px 0 41px
+    background-color: rgba(0, 0, 0, 0.21)
+    h3
+      font-family: 'Gilroy-Bold'
+      font-size: 24px
+      color: #FFFFFF
+      text-transform: uppercase
+      text-align: center
+  &-bottom
+    display: flex
+    justify-content: space-between
+
+    &-left, &-right
+      max-width: 49%
+      width: 100%
+      min-height: 230px
+      padding: 11px 3px 10px 42px
+      background-color: rgba(0, 0, 0, 0.21)
+      color: rgba(255, 255, 255, 0.69)
+      li
+        position: relative
+        font-family: 'Gilroy-Medium'
+        font-size: 19px
+        line-height: 22px
+      span
+        display: block
+        margin: 11px 0 0 -20px
+        font-family: 'Gilroy-Medium'
+        font-size: 19px
+        line-height: 22px
+        color: #FFFFFF
+
+.logos
+  display: flex
+  justify-content: space-between
+  background-color: rgba(0, 0, 0, 0.21)
+  padding: 60px 102px
+  margin-bottom: 19px
+
+.chat
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 46px 37px
+  background-color: rgba(0, 0, 0, 0.21)
+  color: white
+
+  &-title
+    font-family: 'Gilroy-Bold'
+    font-size: 24px
+
+  &-mail
+    display: flex
+    align-items: center
+
+    a
+      margin-left: 30px
+      padding: 25px
+      font-family: 'Gilroy-Medium'
+      font-size: 17px
+      color: white
+      text-decoration: none
+      background: linear-gradient(94.24deg, #5B89FF 0%, #5B6CFF 101.46%)
+      box-shadow: 0px 6px 0px rgba(91, 108, 255, 0.27), inset 0px 0px 16px rgba(255, 255, 255, 0.28)
+      border-radius: 3px
+      transition: all 0.15s liner
+      &:hover
+        background: linear-gradient(94.24deg, #4061b5 0%, #5B6CFF 101.46%)
+      div
+        display: flex
+        align-items: center
+        img
+          display: block
+          width: 21px
+          margin-left: 25px
+
+  &-p
+    font-family: 'Gilroy-Medium'
+    font-size: 17px
+
+.footer
+  display: flex
+  justify-content: center
+  margin-top: 19px
+  font-family: 'Gilroy-Medium'
+  font-size: 19px
+  color: rgba(255, 255, 255, 0.46)
+
+.ua, .en
+  display: none
+
+@media screen and (max-width: 1350px)
+  .wrapper
+    padding: 20px
+
+@media screen and (max-width: 1250px)
+  .dignity
+    flex-direction: column
+    &-left
+      max-width: unset
+      margin-bottom: 19px
+    &-right
+      max-width: unset
+      iframe
+        max-width: unset
+        min-height: 400px
+  .logos
+    padding: 40px
+
+@media screen and (max-width: 1024px)
+  .logos
+    justify-content: center
+    flex-wrap: wrap
+    padding: 40px 20px 20px 40px
+    img
+      display: block
+      margin-right: 20px
+      margin-bottom: 20px
+      &:last-child
+        margin-right: 0
+
+@media screen and (max-width: 950px)
+  .chat
+    display: block
+
+    &-title
+      margin-bottom: 20px
+      text-align: center
+
+    &-mail
+      justify-content: center
+
+  .description
+    align-items: flex-end
+
+    &-container
+      padding-bottom: 10px
+
+    &-image
+      display: flex
+      align-items: flex-end
+      max-width: 40%
+      min-width: 300px
+      height: unset
+      img
+        width: 100%
+        object-fit: contain
+
+@media screen and (max-width: 800px)
+  .wrapper
+    padding: 0 20px
+
+  .description
+    &-container
+      padding: 20px 0 10px 20px
+
+    &-text
+      font-size: 16px
+
+    &-title
+      font-size: 18px
+      img
+        width: 150px
+        margin: 0 5px
+
+  .dignity-title
+    padding: 20px 0
+    h3
+      font-size: 18px
+
+  .dignity-bottom
+    li
+      font-size: 16px
+    span
+      font-size: 16px
+
+  .dignity-right
+    iframe
+      min-height: 300px
+
+  .logos
+    padding: 20px 20px 10px
+
+    img
+      margin-bottom: 10px
+
+  .chat
+    padding: 20px
+    &-title
+      font-size: 18px
+    &-mail
+      a
+        padding: 15px
+
+  .footer
+    font-size: 14px
+
+@media screen and (max-width: 700px)
+  .description-image
+    min-width: 200px
+  .description-title
+    h2
+      display: block
+      img
+        display: block
+
+@media screen and (max-width: 600px)
+  .description
+    flex-direction: column
+
+    &-image
+      max-width: unset
+      width: 100%
+      margin-left: 0
+      align-items: center
+      img
+        display: block
+        width: 90%
+        margin: 0 auto
+
+  .dignity-bottom
+    flex-direction: column
+
+    &-left, &-right
+      max-width: unset
+      min-height: unset
+
+    &-left
+      margin-bottom: 10px
+
+  .logos
+    img
+      margin-right: 10px
+
+  .chat-mail
+    justify-content: space-between
+    a
+      padding: 10px
+      margin-left: 10px
+      font-size: 16px
+      div
+        img
+          margin-left: 10px
+
+  .chat-p
+    font-size: 14px
+
+@media screen and (max-width: 490px)
+  .header-button
+    padding: 5px 7px
+
+  .header-logo
+    width: 120px
+    img
+      width: 100%
+
+  .description-container
+    padding: 20px 10px 20px 20px
+
+  .description-image
+    img
+      width: 75%
+
+  .description-title,
+  .dignity-title,
+  .chat-title
+    font-size: 16px
+
+  .description-text,
+  .dignity-bottom li,
+  .dignity-bottom span
+    font-size: 14px
+    line-height: 18px
+
+  .dignity-right iframe
+    min-height: 220px
+
+  .logos
+    img
+      max-width: 100px
+
+  .chat-title, .chat-p
+    margin-bottom: 10px
+
+  .chat-mail
+    flex-direction: column
+
+  .footer
+    font-size: 12px
+
+@media screen and (max-width: 390px)
+  .header
+    flex-direction: column
+    align-items: flex-start
+
+  .header-buttons
+    width: 100%
+    justify-content: flex-end
+
+  .description-title img
+    width: 115px
+
+  .description-image img
+    width: 100%
