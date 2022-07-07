@@ -19,16 +19,18 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\000038}}
 body {
   background-image: url("./../assets/images/background.png");
+  background-position: center;
+  background-size: cover;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000313}}
 .wrapper {
   margin: 36px auto 32px;
   max-width: 1300px;
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000318}}
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,14 +44,14 @@ body {
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000324}}
 .header-buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000327}}
 .header-button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,26 +73,26 @@ body {
   -webkit-transition: all 0.15s linear;
   transition: all 0.15s linear;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000340}}
 .header-button:hover {
   background: rgba(0, 0, 0, 0.41);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000342}}
 .header-button img {
   display: block;
   margin-right: 7px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000346}}
 .header-button_active {
   background: white;
   color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000350}}
 .header-button_active:hover {
   background: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000353}}
 .description {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,21 +104,21 @@ body {
   margin-bottom: 20px;
   background: rgba(0, 0, 0, 0.21);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000359}}
 .description-image {
   height: 264px;
   margin-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000362}}
 .description-image img {
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000365}}
 .description-container {
   max-width: 720px;
   padding: 52px 0 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000369}}
 .description-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -130,18 +132,18 @@ body {
   color: #FFFFFF;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000377}}
 .description-title span {
   color: linear-gradient(269.45deg, #7342FF 3.46%, #5B89FF 46.01%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000380}}
 .description-text {
   font-family: "Gilroy-Medium";
   font-size: 19px;
   color: rgba(255, 255, 255, 0.69);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000385}}
 .dignity {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -151,33 +153,32 @@ body {
           justify-content: space-between;
   margin-bottom: 19px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000390}}
 .dignity-left {
   max-width: 730px;
   width: 100%;
   margin-right: 35px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000395}}
 .dignity-right {
   max-width: 535px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.21);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\0000399}}
 .dignity-right iframe {
   width: 100%;
   max-width: 535px;
   height: 100%;
-  max-height: 290px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003104}}
 .dignity-title {
   width: 100%;
   margin-bottom: 14px;
   padding: 42px 0 41px;
   background-color: rgba(0, 0, 0, 0.21);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003109}}
 .dignity-title h3 {
   font-family: "Gilroy-Bold";
   font-size: 24px;
@@ -185,7 +186,7 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003115}}
 .dignity-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -194,7 +195,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003119}}
 .dignity-bottom-left, .dignity-bottom-right {
   max-width: 49%;
   width: 100%;
@@ -203,14 +204,14 @@ body {
   background-color: rgba(0, 0, 0, 0.21);
   color: rgba(255, 255, 255, 0.69);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003126}}
 .dignity-bottom-left li, .dignity-bottom-right li {
   position: relative;
   font-family: "Gilroy-Medium";
   font-size: 19px;
   line-height: 22px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003131}}
 .dignity-bottom-left span, .dignity-bottom-right span {
   display: block;
   margin: 11px 0 0 -20px;
@@ -220,7 +221,7 @@ body {
   color: #FFFFFF;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003139}}
 .logos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -233,7 +234,7 @@ body {
   margin-bottom: 19px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003146}}
 .chat {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -248,12 +249,12 @@ body {
   background-color: rgba(0, 0, 0, 0.21);
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003154}}
 .chat-title {
   font-family: "Gilroy-Bold";
   font-size: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003158}}
 .chat-mail {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,7 +263,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003162}}
 .chat-mail a {
   margin-left: 30px;
   padding: 25px;
@@ -277,11 +278,11 @@ body {
   -webkit-transition: all 0.15s liner;
   transition: all 0.15s liner;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003172}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003173}}
 .chat-mail a:hover {
   background: linear-gradient(94.24deg, #4061b5 0%, #5B6CFF 101.46%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003175}}
 .chat-mail a div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -290,19 +291,19 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003178}}
 .chat-mail a div img {
   display: block;
   width: 21px;
   margin-left: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003183}}
 .chat-p {
   font-family: "Gilroy-Medium";
   font-size: 17px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003187}}
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -316,47 +317,47 @@ body {
   color: rgba(255, 255, 255, 0.46);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003195}}
 .ua, .en {
   display: none;
 }
 
 @media screen and (max-width: 1350px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003199}}
   .wrapper {
     padding: 20px;
   }
 }
 @media screen and (max-width: 1250px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003203}}
   .dignity {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003205}}
   .dignity-left {
     max-width: unset;
     margin-bottom: 19px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003208}}
   .dignity-right {
     max-width: unset;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003210}}
   .dignity-right iframe {
     max-width: unset;
     min-height: 400px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003213}}
   .logos {
     padding: 40px;
   }
 }
 @media screen and (max-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003217}}
   .logos {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -365,45 +366,45 @@ body {
         flex-wrap: wrap;
     padding: 40px 20px 20px 40px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003221}}
   .logos img {
     display: block;
     margin-right: 20px;
     margin-bottom: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003225}}
   .logos img:last-child {
     margin-right: 0;
   }
 }
 @media screen and (max-width: 950px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003229}}
   .chat {
     display: block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003232}}
   .chat-title {
     margin-bottom: 20px;
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003236}}
   .chat-mail {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003239}}
   .description {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003242}}
   .description-container {
     padding-bottom: 10px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003245}}
   .description-image {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -415,7 +416,7 @@ body {
     min-width: 300px;
     height: unset;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003251}}
   .description-image img {
     width: 100%;
     -o-object-fit: contain;
@@ -423,103 +424,103 @@ body {
   }
 }
 @media screen and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003256}}
   .wrapper {
     padding: 0 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003260}}
   .description-container {
     padding: 20px 0 10px 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003262}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003263}}
   .description-text {
     font-size: 16px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003266}}
   .description-title {
     font-size: 18px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003267}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003268}}
   .description-title img {
     width: 150px;
     margin: 0 5px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003272}}
   .dignity-title {
     padding: 20px 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003274}}
   .dignity-title h3 {
     font-size: 18px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003278}}
   .dignity-bottom li {
     font-size: 16px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003280}}
   .dignity-bottom span {
     font-size: 16px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003284}}
   .dignity-right iframe {
     min-height: 300px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003287}}
   .logos {
     padding: 20px 20px 10px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003290}}
   .logos img {
     margin-bottom: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003293}}
   .chat {
     padding: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003295}}
   .chat-title {
     font-size: 18px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003297}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003298}}
   .chat-mail a {
     padding: 15px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003301}}
   .footer {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003305}}
   .description-image {
     min-width: 200px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003308}}
   .description-title h2 {
     display: block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003310}}
   .description-title h2 img {
     display: block;
   }
 }
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003314}}
   .description {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003317}}
   .description-image {
     max-width: unset;
     width: 100%;
@@ -528,90 +529,90 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003322}}
   .description-image img {
     display: block;
     width: 90%;
     margin: 0 auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003327}}
   .dignity-bottom {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003330}}
   .dignity-bottom-left, .dignity-bottom-right {
     max-width: unset;
     min-height: unset;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003334}}
   .dignity-bottom-left {
     margin-bottom: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003338}}
   .logos img {
     margin-right: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003341}}
   .chat-mail {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003343}}
   .chat-mail a {
     padding: 10px;
     margin-left: 10px;
     font-size: 16px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003348}}
   .chat-mail a div img {
     margin-left: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003351}}
   .chat-p {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 490px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003355}}
   .header-button {
     padding: 5px 7px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003358}}
   .header-logo {
     width: 120px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003360}}
   .header-logo img {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003363}}
   .description-container {
     padding: 20px 10px 20px 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003367}}
   .description-image img {
     width: 75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003370}}
   .description-title,
   .dignity-title,
   .chat-title {
     font-size: 16px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003375}}
   .description-text,
   .dignity-bottom li,
   .dignity-bottom span {
@@ -619,22 +620,22 @@ body {
     line-height: 18px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003381}}
   .dignity-right iframe {
     min-height: 220px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003385}}
   .logos img {
     max-width: 100px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003388}}
   .chat-title, .chat-p {
     margin-bottom: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003391}}
   .chat-mail {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -642,13 +643,13 @@ body {
             flex-direction: column;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003394}}
   .footer {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 390px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003398}}
   .header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -659,7 +660,7 @@ body {
             align-items: flex-start;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003402}}
   .header-buttons {
     width: 100%;
     -webkit-box-pack: end;
@@ -667,12 +668,12 @@ body {
             justify-content: flex-end;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003405}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003406}}
   .description-title img {
     width: 115px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003408}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/VipGambling\/style\/index\.sass}line{font-family:\00003409}}
   .description-image img {
     width: 100%;
   }
